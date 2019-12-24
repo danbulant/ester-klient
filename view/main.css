@@ -1,0 +1,16 @@
+html {
+    background: url("./assets/images/scenic-landscape-1493434907dkG.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+body {
+    /*backdrop-filter: blur(3px);*/
+    margin: 0;
+    padding: 0;
+}
+.grid-stack-item {
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    color: white;
+}

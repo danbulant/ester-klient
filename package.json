@@ -1,0 +1,26 @@
+{
+  "name": "ester-klient",
+  "version": "1.0.0",
+  "description": "Klient pro Ester",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "cross-env NODE_ENV=dev electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danbulant/ester-klient.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danbulant/ester-klient/issues"
+  },
+  "homepage": "https://github.com/danbulant/ester-klient#readme",
+  "dependencies": {
+    "cross-env": "^6.0.3",
+    "electron": "^7.1.7"
+  }
+}
