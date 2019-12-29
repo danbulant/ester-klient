@@ -22,29 +22,35 @@
             <div class="avatar">
                 <img class="avatar--img" id="avatar" src="assets/images/esterMain.png">
                 <h1 class="avatar--text" id="username">USERNAME</h1>
+                <small id="type">VERSION</small>
             </div>
             <div class="grid-stack">
                 <!-- Movable widgets, generated at runtime -->
             </div>
         </div>
-        <div class="chat content-item">
-            <div class="chat--content">
-                <div class="chat--divider">
-                    Dnes
+        <div class="chat" id="chat">
+            <div class="frame">
+                <div class="frame--header ripple" id="chat-header">
+                    Ester
                 </div>
-                <div class="chat--sent">
-                    <div class="chat--sent-content">
-                        Ahoj!
+                <div class="chat--content">
+                    <div class="chat--divider">
+                        Dnes
+                    </div>
+                    <div class="chat--sent">
+                        <div class="chat--sent-content">
+                            Ahoj!
+                        </div>
+                    </div>
+                    <div class="chat--response">
+                        <div class="chat--response-content">
+                            Ahoj!
+                        </div>
                     </div>
                 </div>
-                <div class="chat--response">
-                    <div class="chat--response-content">
-                        Ahoj!
-                    </div>
+                <div class="chat--form">
+                    <input id="input" placeholder="Pošli zprávu" type="text" class="chat--input">
                 </div>
-            </div>
-            <div class="chat--form">
-                <input id="input" type="text" class="chat--input">
             </div>
         </div>
     </div>
@@ -58,6 +64,8 @@
         grid.enableResize(true, true);
     </script>
     <script src="./user.js"></script>
+    <script src="./chat.js"></script>
     <script src="./calendar.js"></script>
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=y7Vtl7ep"></script>
 </body>
 </html>
